@@ -14,11 +14,9 @@ function App() {
           <span role="img" aria-label="Chili">
             🌶
           </span>{" "}
-          and I study CS in the Pontifical Catholic University of Chile and this
-          the about page of the Treep project. Here's what I used to get
-          inspired. Sorry about the mess. Also, feel free to email me at{" "}
-          <a href="mailto:aasimon@uc.cl">aasimon@uc.cl</a>. Welcome back to the
-          00's...
+          and I study CS in the Pontifical Catholic University of Chile. Sorry
+          about the mess. Also, feel free to email me at{" "}
+          <a href="mailto:aasimon@uc.cl">aasimon@uc.cl</a>.
         </h3>
         <Tweet tweetId="1134228262517903360" />
       </div>
