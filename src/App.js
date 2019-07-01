@@ -1,11 +1,11 @@
 import React from "react";
 import "./styles/App.css";
 import { Tweet } from "react-twitter-widgets";
-import github from "./assets/images/github.png";
+
 function App() {
   return (
     <div className="App">
-      <div>
+      <div className="content">
         <h3>
           I'm Andre Simon from{" "}
           <span role="img" aria-label="Chile">
@@ -24,16 +24,11 @@ function App() {
               justifyContent: "center"
             }}
           >
-            <a href="https://github.com/asimonv">
-              <img
-                style={{ width: 20, height: 20 }}
-                src={github}
-                alt="github-logo"
-              />
-            </a>
+            <a href="https://github.com/asimonv">Github</a>
             <a href="https://www.dropbox.com/s/1swbqptibfcomhy/Resume.pdf?dl=0">
               Resume
             </a>
+            <a href="https://medium.com/@11010110">Medium</a>
           </div>
         </h3>
         <Tweet tweetId="1134228262517903360" />
