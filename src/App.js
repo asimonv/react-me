@@ -12,16 +12,16 @@ function App() {
           free to email me at <a href="mailto:aasimon@uc.cl">aasimon@uc.cl</a>.
           Welcome back to the 00's...
         </h3>
-        <blockquote class="twitter-tweet" data-theme="light">
+        <blockquote class="twitter-tweet">
           <p lang="en" dir="ltr">
-            iPad Pro + Procreate... 🎇🎇🎇🎇
+            iPad Pro + Procreate... 🎇🎇🎇🎇{" "}
             <a href="https://t.co/wingmIScWE">pic.twitter.com/wingmIScWE</a>
           </p>
-          &mdash; Gasca (@gasca)
+          &mdash; Gasca (@gasca){" "}
           <a href="https://twitter.com/gasca/status/1134228262517903360?ref_src=twsrc%5Etfw">
             May 30, 2019
           </a>
-        </blockquote>
+        </blockquote>{" "}
         <script
           async
           src="https://platform.twitter.com/widgets.js"
