@@ -1,12 +1,19 @@
 import React from "react";
 import "./styles/App.css";
-import { Tweet } from "react-twitter-widgets";
+import { HashRouter as Router, Route, Link } from "react-router-dom";
+import Blog from "./screens/BlogScreen";
+import Home from "./screens/HomeScreen";
+import styled from "styled-components";
 
-function App() {
+const Header = styled.h3`
+  text-align: center;
+`;
+
+const App = () => {
   return (
-    <div className="App">
-      <div className="content">
-        <h3>
+    <Router>
+      <div className="App">
+        <Header>
           I'm Andre Simon from{" "}
           <span role="img" aria-label="Chile">
             🇨🇱
@@ -24,17 +31,22 @@ function App() {
               justifyContent: "center"
             }}
           >
+            <Link to="/">Home</Link>
             <a href="https://github.com/asimonv">Github</a>
             <a href="https://www.dropbox.com/s/1swbqptibfcomhy/Resume.pdf?dl=0">
               Resume
             </a>
             <a href="https://medium.com/@11010110">Medium</a>
+            <Link to="/blog">Blog</Link>
           </div>
-        </h3>
-        <Tweet tweetId="1134228262517903360" />
+        </Header>
+        <div className="content">
+          <Route exact path="/" component={Home} />
+          <Route exact path="/blog" component={Blog} />
+        </div>
       </div>
-    </div>
+    </Router>
   );
-}
+};
 
 export default App;
