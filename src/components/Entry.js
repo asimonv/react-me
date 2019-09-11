@@ -38,6 +38,9 @@ const EntryText = styled.div`
 const EntryContent = styled.div`
   display: flex;
   flex-direction: column;
+  & :first-child {
+    margin: 0;
+  }
 `;
 
 const Entry = ({ item }) => {
