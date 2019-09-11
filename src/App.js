@@ -3,7 +3,15 @@ import "./styles/App.css";
 import { HashRouter as Router, Route, Link } from "react-router-dom";
 import Blog from "./screens/BlogScreen";
 import Home from "./screens/HomeScreen";
+import { createGlobalStyle } from "styled-components";
 import styled from "styled-components";
+
+const GlobalStyles = createGlobalStyle`
+  @font-face {
+    font-family: NYTCheltenham;
+    src: URL("./assets/fonts/nyt.ttf") format("truetype");
+  }
+`;
 
 const Header = styled.h3`
   text-align: center;
@@ -13,6 +21,7 @@ const App = () => {
   return (
     <Router>
       <div className="App">
+        <GlobalStyles />
         <div className="content">
           <Header>
             I'm Andre Simon from{" "}

@@ -1,7 +1,7 @@
 import React from "react";
 import StyledText from "../components/StyledText";
 import Test from "../components/Test-id3";
-
+import ComponentId7 from "../components/ComponentId7";
 const entries = [
   {
     id: 0,
@@ -55,6 +55,12 @@ const entries = [
     mood: "🛑🤧🎣🐟🐠🐡",
     content:
       "Fishing for fishing. No meaning, no feelings, no nothing. A lion in a coma. Praying for a miracle. Trial and error, error, error, error, error, error, error, error, error, error, error, error, error, error, error, error, error, error, error, error, error. Trial."
+  },
+  {
+    id: 7,
+    date: "110919",
+    mood: "🤔❓",
+    content: <ComponentId7 />
   }
 ];
 

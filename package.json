@@ -4,12 +4,14 @@
   "private": true,
   "homepage": "https://asimonv.github.io/react-me/",
   "dependencies": {
+    "d3-ease": "^1.0.5",
     "gh-pages": "^2.1.1",
     "react": "^16.8.6",
     "react-dom": "^16.8.6",
     "react-html-parser": "^2.0.2",
     "react-router-dom": "^5.0.1",
     "react-scripts": "3.0.0",
+    "react-spring": "^8.0.27",
     "react-twitter-widgets": "^1.7.1",
     "styled-components": "^4.3.2"
   },
