@@ -3,6 +3,9 @@ import StyledText from "../components/StyledText";
 import Test from "../components/Test-id3";
 import ComponentId7 from "../components/ComponentId7";
 import ComponentId8 from "../components/ComponentId8";
+import ComponentId9 from "../components/ComponentId9";
+import ComponentId10 from "../components/ComponentId10";
+import ComponentId12 from "../components/ComponentId12";
 
 const entries = [
   {
@@ -16,13 +19,6 @@ const entries = [
     date: "090919",
     text: "<i>Life: a miracle as a result of a bunch of exceptions.</i>",
     mood: "🌀"
-  },
-  {
-    id: 2,
-    date: "090919",
-    text: "William's Blake God",
-    media:
-      '<img src="https://www.colorado.edu/english/sites/default/files/styles/medium/public/article-image/800px-europe_a_prophecy_copy_d_object_1_bentley_1_erdman_i_keynes_i_british_museum.jpg?itok=6MYy17S_" />'
   },
   {
     id: 3,
@@ -69,6 +65,31 @@ const entries = [
     date: "110919",
     mood: "😊💗👍",
     content: <ComponentId8 />
+  },
+  {
+    id: 9,
+    date: "120919",
+    mood: "☕️⏳😵🧠",
+    content: <ComponentId9 />
+  },
+  {
+    id: 10,
+    date: "120919",
+    mood: "😡",
+    content:
+      "Confusing being empowered with throwing arrows and stabbing knives."
+  },
+  {
+    id: 11,
+    date: "130919",
+    mood: "😱",
+    content: <ComponentId10 />
+  },
+  {
+    id: 12,
+    date: "130919",
+    mood: "😔",
+    content: <ComponentId12 />
   }
 ];
 
