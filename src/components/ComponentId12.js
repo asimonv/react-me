@@ -20,7 +20,7 @@ const ComponentId12 = () => {
       <p>Not far away...</p>
       <div
         style={{
-          margin: "100px 0px",
+          margin: "50px 0px",
           width: "100%",
           display: "flex",
           flexDirection: "column"
@@ -32,8 +32,8 @@ const ComponentId12 = () => {
             Today <span>06:18 PM</span>
           </TitleText>
         </MessageTitle>
-        <MessageText mine>The water is rising somethere</MessageText>
-        <MessageText other>Not anymore. Not for me. It's over.</MessageText>
+        <MessageText mine>The water is rising somewhere</MessageText>
+        <MessageText other>{"Not anymore. Not for me. It's over."}</MessageText>
         <MessageText other>Oh and one more thing: I'm on Tinder.</MessageText>
       </div>
     </Fragment>

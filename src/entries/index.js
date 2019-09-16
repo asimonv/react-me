@@ -6,6 +6,8 @@ import ComponentId8 from "../components/ComponentId8";
 import ComponentId9 from "../components/ComponentId9";
 import ComponentId10 from "../components/ComponentId10";
 import ComponentId12 from "../components/ComponentId12";
+import ComponentId15 from "../components/ComponentId15";
+import ComponentId16 from "../components/ComponentId16";
 
 const entries = [
   {
@@ -90,6 +92,24 @@ const entries = [
     date: "130919",
     mood: "😔",
     content: <ComponentId12 />
+  },
+  {
+    id: 13,
+    date: "140919",
+    mood: "😶",
+    content: "happy bday. silence inside a square."
+  },
+  {
+    id: 14,
+    date: "150919",
+    mood: "👤",
+    content: <ComponentId15 />
+  },
+  {
+    id: 15,
+    date: "150919",
+    mood: "😔🙂",
+    content: <ComponentId16 />
   }
 ];
 
