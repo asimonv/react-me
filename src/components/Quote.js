@@ -9,6 +9,7 @@ const QuoteText = styled.p`
 
 const QuoteAuthor = styled.p`
   text-align: right;
+  margin-right: 10px;
 `;
 
 const Quote = ({ content, title }) => {

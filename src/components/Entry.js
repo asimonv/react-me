@@ -8,7 +8,6 @@ const EntryContainer = styled.div`
   background: transparent;
   border-radius: 3px;
   margin: 1.2em 0em;
-  font-family: NYTCheltenham;
   font-size: large;
 `;
 
@@ -25,7 +24,6 @@ const EntryHeader = styled.div`
   flex-direction: row;
   display: flex;
   justify-content: flex-start;
-  align-items: center;
 `;
 
 const EntryText = styled.div`

@@ -22,11 +22,6 @@ const HomeScreen = props => (
       I study CS @ Pontificia Universidad Católica de Chile. Feel free to email
       me at <a href="mailto:aasimon@uc.cl">aasimon@uc.cl</a>
     </Header>
-    <p style={{ textAlign: "center" }}>
-      <span role="img" aria-labelledby="ying-yang emoji">
-        ☯️
-      </span>
-    </p>
   </Fragment>
 );
 

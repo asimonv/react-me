@@ -18,6 +18,7 @@ const NavigationButton = styled.button`
 const NavigationWrapper = styled.div`
   display: flex;
   margin: 40px 0;
+  width: 100%;
   flex-direction: ${props =>
     props.entryIndex === entries.length - 1 ? "column" : "row"};
   justify-content: space-between;
