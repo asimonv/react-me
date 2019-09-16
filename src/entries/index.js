@@ -8,6 +8,9 @@ import ComponentId10 from "../components/ComponentId10";
 import ComponentId12 from "../components/ComponentId12";
 import ComponentId15 from "../components/ComponentId15";
 import ComponentId16 from "../components/ComponentId16";
+import ComponentId17 from "../components/ComponentId17";
+import ComponentId18 from "../components/ComponentId18";
+import ComponentId19 from "../components/ComponentId19";
 
 const entries = [
   {
@@ -110,6 +113,24 @@ const entries = [
     date: "150919",
     mood: "😔🙂",
     content: <ComponentId16 />
+  },
+  {
+    id: 16,
+    date: "150919",
+    mood: "😢",
+    content: <ComponentId17 />
+  },
+  {
+    id: 17,
+    date: "150919",
+    mood: "😔",
+    content: <ComponentId18 />
+  },
+  {
+    id: 18,
+    date: "160919",
+    mood: "😔",
+    content: <ComponentId19 />
   }
 ];
 

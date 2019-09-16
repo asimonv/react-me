@@ -71,7 +71,7 @@ const ComponentId10 = () => {
           }}
         >
           <Image
-            url={`${process.env.PUBLIC_URL}/images/cropped-square.png`}
+            src={`${process.env.PUBLIC_URL}/images/cropped-square.png`}
             labelledby={aria}
             alt={aria}
           />

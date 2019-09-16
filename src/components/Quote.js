@@ -4,7 +4,7 @@ import styled from "styled-components";
 const QuoteWrapper = styled.div``;
 
 const QuoteText = styled.p`
-  fontsize: large;
+  font-size: large;
 `;
 
 const QuoteAuthor = styled.p`
@@ -14,8 +14,8 @@ const QuoteAuthor = styled.p`
 const Quote = ({ content, title }) => {
   return (
     <QuoteWrapper>
-      <QuoteText>{`“${content}”`}</QuoteText>
-      <QuoteAuthor>{`—${title}.`}</QuoteAuthor>
+      {content && <QuoteText>{`“${content}”`}</QuoteText>}
+      {title && <QuoteAuthor>{`—${title}`}</QuoteAuthor>}
     </QuoteWrapper>
   );
 };

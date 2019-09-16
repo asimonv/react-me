@@ -23,8 +23,8 @@ const ComponentId15 = props => {
     <Fragment>
       <p>
         Everytime I see a painting I remember the weird fact that they hide some
-        deeper meaning which reminds me how much time have passed since that
-        Wednesday: seconds. Tap the painting to understand (I guess??).
+        deeper meaning which reminds me about how much time have passed since
+        that Wednesday: seconds. Tap the painting to understand (I guess??).
       </p>
       <div onClick={_onClick} style={{ cursor: "help" }}>
         <div

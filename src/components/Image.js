@@ -10,10 +10,10 @@ const ImageWrapper = styled.div`
   }
 `;
 
-const Image = ({ url, alt, labelledby, style }) => {
+const Image = ({ src, alt, labelledby, style }) => {
   return (
     <ImageWrapper>
-      <img style={style} src={url} alt={alt} aria-labelledby={labelledby} />
+      <img style={style} src={src} alt={alt} aria-labelledby={labelledby} />
     </ImageWrapper>
   );
 };

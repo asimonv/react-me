@@ -9,7 +9,7 @@ const ComponentId8 = () => {
       </p>
       <Image
         alt="treep icon"
-        url={`${process.env.PUBLIC_URL}/images/treep-icon.png`}
+        src={`${process.env.PUBLIC_URL}/images/treep-icon.png`}
         labelledby="dream-description"
       />
     </Fragment>

@@ -8,7 +8,6 @@ const EntryContainer = styled.div`
   background: transparent;
   border-radius: 3px;
   margin: 1.2em 0em;
-  padding: 0.25em 1em;
   font-family: NYTCheltenham;
   font-size: large;
 `;

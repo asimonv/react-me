@@ -21,7 +21,7 @@ const ComponentId9 = () => {
     <Wrapper onClick={_onClick} dark={dark}>
       <p id="flesh">Made of plastic and flesh.</p>
       <Image
-        url={`${process.env.PUBLIC_URL}/images/flesh.png`}
+        src={`${process.env.PUBLIC_URL}/images/flesh.png`}
         labelledby="flesh"
         alt="flesh"
       />
@@ -40,7 +40,7 @@ const ComponentId9 = () => {
       </p>
       <p>A mantis that cycled into Salome.</p>
       <Image
-        url={`${process.env.PUBLIC_URL}/images/line.png`}
+        src={`${process.env.PUBLIC_URL}/images/line.png`}
         labelledby="a division curve"
         alt="a division curve"
       />
