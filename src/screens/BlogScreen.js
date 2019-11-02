@@ -1,6 +1,6 @@
 import React, { Fragment, useState } from "react";
 import styled from "styled-components";
-import entries from "../entries";
+import entries from "../entries/blog";
 import Entry from "../components/Entry";
 
 const NavigationButton = styled.button`
@@ -32,7 +32,7 @@ const BlogScreen = props => {
 
   const currentEntry = entries[entryIndex];
   return (
-    <Fragment>
+    <div className="content">
       <NavigationWrapper entryIndex={entryIndex}>
         {entryIndex < entries.length - 1 && (
           <NavigationButton
@@ -49,7 +49,7 @@ const BlogScreen = props => {
         )}
       </NavigationWrapper>
       <Entry key={currentEntry.id} item={currentEntry} />
-    </Fragment>
+    </div>
   );
 };
 

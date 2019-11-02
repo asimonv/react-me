@@ -3,6 +3,7 @@ import "./styles/App.css";
 import { HashRouter as Router, Route, Link } from "react-router-dom";
 import Blog from "./screens/BlogScreen";
 import Home from "./screens/HomeScreen";
+import Work from "./screens/WorkScreen";
 import { createGlobalStyle } from "styled-components";
 import styled from "styled-components";
 
@@ -36,6 +37,7 @@ const App = () => (
       <div className="content">
         <LinksWrapper>
           <Link to="/">Home</Link>
+          <Link to="/work">Work</Link>
           <a href="https://github.com/asimonv">Github</a>
           <a href="https://www.dropbox.com/s/1swbqptibfcomhy/Resume.pdf?dl=0">
             Resume
@@ -44,8 +46,9 @@ const App = () => (
           <Link to="/blog">Blog</Link>
         </LinksWrapper>
       </div>
-      <div className="content">
+      <div>
         <Route exact path="/" component={Home} />
+        <Route exact path="/work" component={Work} />
         <Route exact path="/blog" component={Blog} />
       </div>
     </div>

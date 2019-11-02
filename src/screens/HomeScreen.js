@@ -1,4 +1,4 @@
-import React, { Fragment } from "react";
+import React from "react";
 import styled from "styled-components";
 
 const Header = styled.h3`
@@ -10,7 +10,7 @@ const Header = styled.h3`
 `;
 
 const HomeScreen = props => (
-  <Fragment>
+  <div className="content">
     <Header>
       I'm Andre Simon from{" "}
       <span role="img" aria-label="Chile">
@@ -22,7 +22,7 @@ const HomeScreen = props => (
       I study CS @ Pontificia Universidad Católica de Chile. Feel free to email
       me at <a href="mailto:aasimon@uc.cl">aasimon@uc.cl</a>
     </Header>
-  </Fragment>
+  </div>
 );
 
 export default HomeScreen;

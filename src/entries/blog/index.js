@@ -1,16 +1,19 @@
 import React from "react";
-import StyledText from "../components/StyledText";
-import Test from "../components/Test-id3";
-import ComponentId7 from "../components/ComponentId7";
-import ComponentId8 from "../components/ComponentId8";
-import ComponentId9 from "../components/ComponentId9";
-import ComponentId10 from "../components/ComponentId10";
-import ComponentId12 from "../components/ComponentId12";
-import ComponentId15 from "../components/ComponentId15";
-import ComponentId16 from "../components/ComponentId16";
-import ComponentId17 from "../components/ComponentId17";
-import ComponentId18 from "../components/ComponentId18";
-import ComponentId19 from "../components/ComponentId19";
+import StyledText from "../../components/StyledText";
+import Test from "../../components/Test-id3";
+import ComponentId7 from "../../components/ComponentId7";
+import ComponentId8 from "../../components/ComponentId8";
+import ComponentId9 from "../../components/ComponentId9";
+import ComponentId10 from "../../components/ComponentId10";
+import ComponentId12 from "../../components/ComponentId12";
+import ComponentId15 from "../../components/ComponentId15";
+import ComponentId16 from "../../components/ComponentId16";
+import ComponentId17 from "../../components/ComponentId17";
+import ComponentId18 from "../../components/ComponentId18";
+import ComponentId19 from "../../components/ComponentId19";
+import ComponentId20 from '../../components/ComponentId20';
+import ComponentId21 from '../../components/ComponentId21';
+import ComponentId22 from '../../components/ComponentId22';
 
 const entries = [
   {
@@ -131,7 +134,28 @@ const entries = [
     date: "160919",
     mood: "😔",
     content: <ComponentId19 />
-  }
+},
+{
+  id: 19,
+  date: '180919',
+  mood: "😢😡👤",
+  content: <ComponentId20 />
+},{
+  id: 20,
+  date: '190919',
+  mood: '👤',
+  content: 'A human being alone, being capable of doing things by itself. A mystery of emotions and itching hormones.'
+}, {
+  id: 21,
+  date: '190919',
+  mood: '👤',
+  content: <ComponentId21 />
+}, {
+  id: 22,
+  date: '210919',
+  mood: '☮️',
+  content: <ComponentId22 />
+}
 ];
 
 export default entries;
