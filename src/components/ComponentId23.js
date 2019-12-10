@@ -3,7 +3,6 @@ import styled from "styled-components";
 
 import Image from "./Image";
 import Quote from "./Quote";
-import CoverImage from "./CoverImage";
 
 const Grid = styled.div`
   display: flex;
@@ -38,12 +37,6 @@ const ComponentId23 = props => {
 
   return (
     <>
-      {/*
-      <CoverImage
-        title="The Persistence of Memory (1931) - Salvador Dalí"
-        src="http://www.moma.org/media/W1siZiIsIjM4NjQ3MCJdLFsicCIsImNvbnZlcnQiLCItcmVzaXplIDIwMDB4MjAwMFx1MDAzZSJdXQ.jpg?sha=f6522ef85554762b"
-      />
-      */}
       <Timer>
         <a href="https://www.bloomberg.com/news/articles/2019-10-30/dozens-blinded-by-chile-police-in-violent-crackdown-on-protests">
           {seconds}
