@@ -11,9 +11,10 @@ import ComponentId16 from "../../components/ComponentId16";
 import ComponentId17 from "../../components/ComponentId17";
 import ComponentId18 from "../../components/ComponentId18";
 import ComponentId19 from "../../components/ComponentId19";
-import ComponentId20 from '../../components/ComponentId20';
-import ComponentId21 from '../../components/ComponentId21';
-import ComponentId22 from '../../components/ComponentId22';
+import ComponentId20 from "../../components/ComponentId20";
+import ComponentId21 from "../../components/ComponentId21";
+import ComponentId22 from "../../components/ComponentId22";
+import ComponentId23 from "../../components/ComponentId23";
 
 const entries = [
   {
@@ -134,28 +135,38 @@ const entries = [
     date: "160919",
     mood: "😔",
     content: <ComponentId19 />
-},
-{
-  id: 19,
-  date: '180919',
-  mood: "😢😡👤",
-  content: <ComponentId20 />
-},{
-  id: 20,
-  date: '190919',
-  mood: '👤',
-  content: 'A human being alone, being capable of doing things by itself. A mystery of emotions and itching hormones.'
-}, {
-  id: 21,
-  date: '190919',
-  mood: '👤',
-  content: <ComponentId21 />
-}, {
-  id: 22,
-  date: '210919',
-  mood: '☮️',
-  content: <ComponentId22 />
-}
+  },
+  {
+    id: 19,
+    date: "180919",
+    mood: "😢😡👤",
+    content: <ComponentId20 />
+  },
+  {
+    id: 20,
+    date: "190919",
+    mood: "👤",
+    content:
+      "A human being alone, being capable of doing things by itself. A mystery of emotions and itching hormones."
+  },
+  {
+    id: 21,
+    date: "190919",
+    mood: "👤",
+    content: <ComponentId21 />
+  },
+  {
+    id: 22,
+    date: "210919",
+    mood: "☮️",
+    content: <ComponentId22 />
+  },
+  {
+    id: 23,
+    date: "101219",
+    mood: "👨‍🎨",
+    content: <ComponentId23 />
+  }
 ];
 
 export default entries;

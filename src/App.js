@@ -4,20 +4,7 @@ import { HashRouter as Router, Route, Link } from "react-router-dom";
 import Blog from "./screens/BlogScreen";
 import Home from "./screens/HomeScreen";
 import Work from "./screens/WorkScreen";
-import { createGlobalStyle } from "styled-components";
 import styled from "styled-components";
-
-const GlobalStyles = createGlobalStyle`
-@font-face {
-    font-family: NYTCheltenham;
-    src: url('./assets/fonts/nyt.ttf') format('truetype'),
-         url('./assets/fonts/nyt-webfont.woff') format('woff'),
-         url('./assets/fonts/nyt-webfont.woff2') format('woff2');
-    font-weight: normal;
-    font-style: normal;
-
-}
-`;
 
 const LinksWrapper = styled.div`
   font-weight: bold;
@@ -33,7 +20,6 @@ const LinksWrapper = styled.div`
 const App = () => (
   <Router>
     <div className="App">
-      <GlobalStyles />
       <div className="content">
         <LinksWrapper>
           <Link to="/">Home</Link>

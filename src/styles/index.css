@@ -12,6 +12,15 @@ div.content {
   width: 450px;
 }
 
+@font-face {
+  font-family: NYTCheltenham;
+  src: url("../assets/fonts/nyt.ttf") format("truetype"),
+    url("../assets/fonts/nyt-webfont.woff") format("woff"),
+    url("../assets/fonts/nyt-webfont.woff2") format("woff2");
+  font-weight: normal;
+  font-style: normal;
+}
+
 /* If the screen size is 600px wide or less, hide the element */
 @media only screen and (max-width: 600px) {
   div.content {
