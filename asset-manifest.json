@@ -1,14 +1,14 @@
 {
   "files": {
     "main.css": "/react-me/static/css/main.a184665a.chunk.css",
-    "main.js": "/react-me/static/js/main.d43f0ad8.chunk.js",
-    "main.js.map": "/react-me/static/js/main.d43f0ad8.chunk.js.map",
+    "main.js": "/react-me/static/js/main.5276ceb4.chunk.js",
+    "main.js.map": "/react-me/static/js/main.5276ceb4.chunk.js.map",
     "runtime~main.js": "/react-me/static/js/runtime~main.f70d4391.js",
     "runtime~main.js.map": "/react-me/static/js/runtime~main.f70d4391.js.map",
-    "static/js/2.208ee3e1.chunk.js": "/react-me/static/js/2.208ee3e1.chunk.js",
-    "static/js/2.208ee3e1.chunk.js.map": "/react-me/static/js/2.208ee3e1.chunk.js.map",
+    "static/js/2.b2d7e938.chunk.js": "/react-me/static/js/2.b2d7e938.chunk.js",
+    "static/js/2.b2d7e938.chunk.js.map": "/react-me/static/js/2.b2d7e938.chunk.js.map",
     "index.html": "/react-me/index.html",
-    "precache-manifest.7eff9502916eb1ce23f06e960f36f1c4.js": "/react-me/precache-manifest.7eff9502916eb1ce23f06e960f36f1c4.js",
+    "precache-manifest.898653e6389ade9617263cd9751ece30.js": "/react-me/precache-manifest.898653e6389ade9617263cd9751ece30.js",
     "service-worker.js": "/react-me/service-worker.js",
     "static/css/main.a184665a.chunk.css.map": "/react-me/static/css/main.a184665a.chunk.css.map",
     "static/media/index.css": "/react-me/static/media/nyt.373bef8d.ttf"
