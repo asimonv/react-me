@@ -43,7 +43,7 @@ const ComponentId23 = props => {
         </a>
       </Timer>
       <h1>
-        Estamos viviendo dentro de un <i>sueño real</i>.
+        Viviendo dentro de un <i>sueño real</i>.
       </h1>
       <Grid>
         <PaintingImage

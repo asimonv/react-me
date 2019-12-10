@@ -1,7 +1,9 @@
-import React, { useState } from "react";
+import React, { useEffect, useState } from "react";
+import { Switch, Redirect, Route, useRouteMatch } from "react-router-dom";
 import styled from "styled-components";
+
+import EntryScreen from "./EntryScreen";
 import entries from "../entries/blog";
-import Entry from "../components/Entry";
 
 const NavigationButton = styled.button`
   background: url("${props => props.url}") no-repeat center center;
@@ -24,13 +26,19 @@ const NavigationWrapper = styled.div`
   justify-content: space-between;
 `;
 
-const BlogScreen = props => {
+const BlogScreen = ({ history }) => {
   const [entryIndex, setEntryIndex] = useState(entries.length - 1);
+  const { path } = useRouteMatch();
   const _onClick = val => {
     setEntryIndex(entryIndex + val);
   };
 
-  const currentEntry = entries[entryIndex];
+  useEffect(() => {
+    history.push({
+      pathname: `${path}/${entryIndex}`
+    });
+  }, [entryIndex, path, history]);
+
   return (
     <div className="content">
       <NavigationWrapper entryIndex={entryIndex}>
@@ -48,7 +56,14 @@ const BlogScreen = props => {
           />
         )}
       </NavigationWrapper>
-      <Entry key={currentEntry.id} item={currentEntry} />
+      <Switch>
+        <Route path={`${path}/:postId`}>
+          <EntryScreen />
+        </Route>
+        <Route path={path}>
+          <Redirect to={`${path}/${entryIndex}`} />
+        </Route>
+      </Switch>
     </div>
   );
 };
