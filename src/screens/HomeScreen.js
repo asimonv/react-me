@@ -25,6 +25,11 @@ const HomeScreen = props => {
           at <a href="mailto:aasimon@uc.cl">aasimon@uc.cl</a>
         </p>
       </Header>
+      <img
+        style={{ width: "100%" }}
+        alt="a drawing of a girl in a field with the title: you can open the hidden doors"
+        src={`${process.env.PUBLIC_URL}/images/open_door.jpg`}
+      />
     </div>
   );
 };
