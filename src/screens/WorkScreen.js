@@ -15,6 +15,10 @@ const Wrapper = styled.div`
 `;
 
 const WorkScreen = () => {
+  React.useEffect(() => {
+    document.title = "Andre Simon | Work";
+  }, []);
+
   return (
     <Wrapper>
       {entries.map(x => (

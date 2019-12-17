@@ -39,6 +39,10 @@ const BlogScreen = ({ history }) => {
     });
   }, [entryIndex, path, history]);
 
+  useEffect(() => {
+    document.title = "Andre Simon | Blog";
+  }, []);
+
   return (
     <div className="content">
       <NavigationWrapper entryIndex={entryIndex}>
