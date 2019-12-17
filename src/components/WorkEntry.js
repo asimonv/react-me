@@ -1,14 +1,11 @@
 import React from "react";
 import styled from "styled-components";
-import Image from "./Image";
-
-const WorkImages = styled.div`
-  flex: 1;
-  flex-direction: row;
-`;
+import Carousel from "./Carousel";
 
 const EntryWrapper = styled.div`
-  flex: 0.5;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
 `;
 
 const TextWrapper = styled.div`
@@ -23,15 +20,22 @@ const EntryText = styled.p`
 const WorkEntry = ({ work }) => {
   return (
     <EntryWrapper>
-      <WorkImages>
-        {work.images.map(x => <Image id={x} src={x} alt="image" />)}
-      </WorkImages>
       <TextWrapper>
-        <EntryText>
-          {work.title}, {work.from}
-        </EntryText>
+        {work.url ? (
+          <a href={work.url}>
+            {work.title}, {work.from}
+          </a>
+        ) : (
+          <EntryText>
+            {work.title}, {work.from}
+          </EntryText>
+        )}
+
         <EntryText>{work.used.join(", ")}</EntryText>
       </TextWrapper>
+      {work.content && work.content.length ? (
+        <Carousel entries={work.content} />
+      ) : null}
     </EntryWrapper>
   );
 };

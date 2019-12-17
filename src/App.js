@@ -1,6 +1,6 @@
 import React from "react";
 import "./styles/App.css";
-import { HashRouter as Router, Route, Link } from "react-router-dom";
+import { HashRouter as Router, Route, Link, Switch } from "react-router-dom";
 import Blog from "./screens/BlogScreen";
 import Home from "./screens/HomeScreen";
 import Work from "./screens/WorkScreen";
@@ -32,11 +32,11 @@ const App = () => (
           <Link to="/blog">Blog</Link>
         </LinksWrapper>
       </div>
-      <div>
+      <Switch>
         <Route exact path="/" component={Home} />
         <Route exact path="/work" component={Work} />
         <Route path="/blog" component={Blog} />
-      </div>
+      </Switch>
     </div>
   </Router>
 );
