@@ -2,7 +2,7 @@
   "name": "react-me",
   "version": "0.1.0",
   "private": true,
-  "homepage": "http://asimonv.com/",
+  "homepage": "http://asimonv.com",
   "dependencies": {
     "d3-ease": "^1.0.5",
     "gh-pages": "^2.1.1",
